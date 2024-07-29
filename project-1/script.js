@@ -29,19 +29,19 @@ document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
 document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
 if(data.weather[0].main == "Clouds"){
-    weatherImage.src = "weather-app-img/images/clouds.png";
+    weatherImage.src = "weather-app-img/images/clouds.webp";
 }
 else if(data.weather[0].main == "Clear"){
-    weatherImage.src = "weather-app-img/images/clear.png";
+    weatherImage.src = "weather-app-img/images/clear.webp";
 }
 else if(data.weather[0].main == "Rain"){
-    weatherImage.src = "weather-app-img/images/rain.png";
+    weatherImage.src = "weather-app-img/images/rain.webp";
 }
 else if(data.weather[0].main == "Drizzle"){
-    weatherImage.src = "weather-app-img/images/drizzle.png";
+    weatherImage.src = "weather-app-img/images/drizzle.webp";
 }
 else if(data.weather[0].main == "Mist"){
-    weatherImage.src = "weather-app-img/images/mist.png";
+    weatherImage.src = "weather-app-img/images/mist.webp";
 }
 
 document.querySelector(".weather").style.display = "block";
